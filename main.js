@@ -13,7 +13,8 @@ $(document).ready(function() {
 
     $("#talk-to-sonia").click(function() {
         $("#confetti-page").css("display", "none");
-        $("#player").css("display", "block")
+        // $("#player").css("display", "block");
+        window.open("https://creator.us.uneeq.io/try/2975936d-284e-46ec-8292-02c6aade5402", '_self')
     });
 
     $("#bye").click(function() {
